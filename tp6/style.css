@@ -1,0 +1,66 @@
+
+body {
+    background-color: #00FFFF; 
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    color: red;
+}
+
+
+label:first-of-type, label:nth-of-type(2) {
+    color: blue; 
+}
+
+label:nth-of-type(n+3) {
+    color: green;
+}
+
+
+form {
+    background-color: #F0F8FF;
+    border-radius:       30px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"],     
+input[type="date"], 
+select {
+    width: 90%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;    
+    border: 5px solid blue;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+    margin-bottom: 20px;    
+}
+
+input[type="checkbox"] {
+    margin-bottom: 20px;
+    margin-left: 10px
+    
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: green ;
+}
