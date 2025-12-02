@@ -1,0 +1,27 @@
+button{
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    
+}
+
+fieldset{
+    border-radius: 15px;
+    color: black;
+    background-color: grey;
+}
+
+legend{
+    font-weight: bold;
+    background-color: grey;
+    color: black;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: red
+}
+
+body{
+    background-color: grey;
+}
